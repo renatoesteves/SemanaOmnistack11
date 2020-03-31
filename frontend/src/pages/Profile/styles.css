@@ -31,7 +31,7 @@
     width: 60px;
     border-radius: 4px;
     border: 1px solid #dcdcd6;
-    background-attachment: transparent;
+    background: transparent;
     margin-left: 16px;
     transition: border-color 0.2s;
 }
@@ -59,10 +59,12 @@
 }
 
 .profile-container ul li button {
+    background-color: #fff;
     position: absolute;
     right: 24px;
     top: 24px;
     border: 0;
+    opacity: 1;
 }
 .profile-container ul li button:hover{
     opacity: 0.8;
